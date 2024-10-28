@@ -79,6 +79,8 @@
 }
 
 .header__title {
+  display: flex;
+  flex-direction: column;
   max-width: 709px;
   margin-left: 80px;
   margin-bottom: 28px;
