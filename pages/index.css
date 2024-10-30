@@ -169,10 +169,6 @@
 }
 
 .recipes__video-item {
-  /*no se que ponerle*/
-}
-
-.video__iframe {
   width: 480px;
   height: 327px;
   border: none;
