@@ -135,6 +135,9 @@
   background-position: center;
   background-repeat: no-repeat;
   color: #ffffff;
+  min-height: 700px;
+  max-height: 800px;
+  height: 100vh;
 }
 
 .recipes__title {
