@@ -64,12 +64,6 @@
   margin-right: 80px;
 }
 
-.header__content {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
 .header__image {
   position: absolute;
   width: 646px;
