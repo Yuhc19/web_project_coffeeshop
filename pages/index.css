@@ -194,6 +194,9 @@
 }
 
 .reservation__form form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .form__fieldset {
