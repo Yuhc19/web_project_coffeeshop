@@ -193,6 +193,31 @@
   background-size: cover;
 }
 
+.reservation__form form {
+  display: flex;
+
+  align-items: center;
+}
 .form__input {
   border-radius: 2px;
+}
+
+.reservation__title {
+  border-top: 100px;
+  border-bottom: 80px;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
+}
+
+.form__label {
+  padding-bottom: 8px;
+}
+
+.form__input {
+  padding-bottom: 32px;
+  line-height: 60px;
 }
