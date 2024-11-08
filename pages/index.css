@@ -194,9 +194,12 @@
 }
 
 .reservation__form form {
-  display: flex;
+}
 
-  align-items: center;
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
 }
 
 .form__input {
@@ -204,9 +207,6 @@
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  line-height: 30px;
-  padding-bottom: 32px;
-  line-height: 60px;
   border-radius: 4px;
 }
 
@@ -218,12 +218,6 @@
   line-height: 52px;
   border-top: 100px;
   border-bottom: 80px;
-}
-
-.form__fieldset {
-  display: flex;
-  flex-direction: column;
-  max-width: 385px;
 }
 
 .form__label {
