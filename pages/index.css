@@ -198,7 +198,10 @@
 
   align-items: center;
 }
+
 .form__input {
+  padding-bottom: 32px;
+  line-height: 60px;
   border-radius: 2px;
 }
 
@@ -215,9 +218,4 @@
 
 .form__label {
   padding-bottom: 8px;
-}
-
-.form__input {
-  padding-bottom: 32px;
-  line-height: 60px;
 }
