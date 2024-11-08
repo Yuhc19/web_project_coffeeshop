@@ -202,7 +202,7 @@
 .form__input {
   padding-bottom: 32px;
   line-height: 60px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .reservation__title {
@@ -218,4 +218,13 @@
 
 .form__label {
   padding-bottom: 8px;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+}
+
+.form__button {
+  border-radius: 4px;
+  /*hover*/
 }
