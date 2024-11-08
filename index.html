@@ -127,29 +127,35 @@
 
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
-          <form class="reservation__form">
-            <fieldset>
-              <label for="text" class=""
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="text" class="form__label"
                 >Nombre *
-                <input type="text" />
+                <input type="text" name="name" id="name" />
               </label>
-              <label for="number" class=""
+              <label for="number" class="form__label"
                 >Número de comensales *
-                <input type="number" />
+                <input type="number" name="guests" id="guests" />
               </label>
-              <label for="datetime-local"
+              <label for="datetime-local" class="form__label"
                 >Fecha y hora *
-                <input type="datetime-local" />
+                <input
+                  type="datetime-local"
+                  name="datetime-local"
+                  id="datetime-local"
+                />
               </label>
-              <label for="email" class=""
+              <label for="email" class="form__label"
                 >Tu correo electrónico *
-                <input type="email" />
+                <input type="email" name="email" id="email" />
               </label>
             </fieldset>
-            <button type="submit" class="">Reservar una mesa</button>
-            <label>
-              <input type="checkbox" name="" id="" />
-              <span class="form__label-text"> Acepto los términos de uso</span>
+            <button type="submit" class="form__button">
+              Reservar una mesa
+            </button>
+            <label class="form__label">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <span> Acepto los términos de uso</span>
             </label>
           </form>
         </section>
