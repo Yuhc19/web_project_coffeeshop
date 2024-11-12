@@ -289,8 +289,8 @@
   position: absolute;
   left: 0px;
   top: 0px;
-  z-index: -1;
-  background-color: #2f80ed;
+  z-index: 1;
+  color: #2f80ed;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -320,6 +320,9 @@
   column-gap: 10px;
 }
 
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
 .footer__social-link {
   color: white;
   text-decoration: none;
