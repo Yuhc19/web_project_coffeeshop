@@ -224,10 +224,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-top: auto;
-  margin-right: auto;
-  margin-bottom: 80px;
-  margin-left: auto;
+  margin: 0px auto 80px;
 }
 
 .form__label {
