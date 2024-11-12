@@ -317,14 +317,13 @@
 .footer__list-item {
   display: flex;
   flex-direction: row-reverse;
+  column-gap: 10px;
 }
 
 .footer__social-link {
   color: white;
   text-decoration: none;
   display: flex;
-  column-gap: 10px;
-  column-gap: 10px;
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
