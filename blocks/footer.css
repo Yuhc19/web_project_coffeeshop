@@ -279,6 +279,7 @@
   color: #ffffff;
   width: 105px;
   height: 39px;
+  z-index: 1;
 }
 
 .footer__circle {
@@ -288,7 +289,10 @@
   position: absolute;
   left: 0px;
   top: 0px;
-  z-index: 0;
+  z-index: -1;
+  background-color: #2f80ed;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .footer__social-heading {
@@ -310,11 +314,16 @@
   flex-direction: column;
 }
 
+.footer__list-item {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__social-link {
   color: white;
   text-decoration: none;
   display: flex;
-  align-items: center;
+  column-gap: 10px;
   column-gap: 10px;
   font-family: "Inter";
   font-style: normal;
