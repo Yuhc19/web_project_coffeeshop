@@ -225,9 +225,9 @@
   font-size: 44px;
   line-height: 52px;
   margin-top: 80px;
-  margin-right: 01px;
+  margin-right: 10px;
   margin-bottom: 80px;
-  margin-left: 1px;
+  margin-left: 0px;
 }
 
 .form__label {
