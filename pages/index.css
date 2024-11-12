@@ -253,3 +253,7 @@
   line-height: 20px;
   /*hover*/
 }
+
+.form__button:hover {
+  opacity: 70%;
+}
