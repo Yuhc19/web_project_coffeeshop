@@ -283,16 +283,14 @@
 }
 
 .footer__circle {
+  position: absolute;
   width: 340px;
   height: 340px;
-  border-radius: 44px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+  border-radius: 340px;
+  left: -44px;
+  top: -128px;
   z-index: 1;
-  color: #2f80ed;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  background-color: #2f80ed;
 }
 
 .footer__social-heading {
@@ -342,7 +340,7 @@
 
 .footer__copyright {
   color: #ffffff;
-  margin-top: 100px;
+  margin-top: 108px;
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
