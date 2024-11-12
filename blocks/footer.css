@@ -316,7 +316,7 @@
 
 .footer__list-item {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
 }
 
 .footer__social-link {
