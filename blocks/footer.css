@@ -4,15 +4,12 @@
   background-color: #0a2850;
   padding: 60px 80px;
   position: relative;
+  overflow: hidden;
 }
 
 .footer__content {
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
-  margin-right: 80px;
-  margin-bottom: 180px;
-  margin-left: 80px;
 }
 
 .footer__logo {
