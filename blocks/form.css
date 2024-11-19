@@ -51,9 +51,3 @@
   padding-top: 100px;
   padding-bottom: 120px;
 }
-
-.reservation__form form {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
