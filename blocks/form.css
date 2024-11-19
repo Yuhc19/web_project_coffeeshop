@@ -28,6 +28,8 @@
   background-color: #2f80ed;
   background-image: url(../images/check.svg);
   border-radius: 2px;
+  height: 20px;
+  width: 20px;
 }
 
 .form__button {
@@ -41,6 +43,9 @@
   line-height: 20px;
   height: 60px;
   width: 385px;
+  position: absolute;
+  bottom: 100px;
+  left: 480px;
 }
 
 .form__button:hover {
@@ -50,4 +55,5 @@
 .reservation {
   padding-top: 100px;
   padding-bottom: 120px;
+  position: relative;
 }
