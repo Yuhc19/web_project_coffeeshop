@@ -18,17 +18,8 @@
   margin-right: 80px;
 }
 
-.header {
+.nav {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  flex-direction: column;
-  height: 100vh;
-  min-height: 720px;
-  max-height: 800px;
-  padding: 30px 80px 40px;
-  position: relative;
-  box-sizing: border-box;
-  background-color: #ffffff;
-  background-image: url(../images/background_header.svg);
-  background-size: cover;
 }
