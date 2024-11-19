@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   max-width: 385px;
-  border-radius: none;
+  border-radius: 0px;
   border-color: #d9e7ff;
 
   gap: 8px;
